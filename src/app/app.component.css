@@ -1,0 +1,76 @@
+/* Navigation bar */
+.navbar.we-menu {
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+  min-height: 70px;
+  background-color: transparent;
+  border-bottom: 0px solid #000000;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar.we-menu {
+      background-color: deepskyblue;
+  }
+}
+.account-menu {
+  background-color: #00A6FF;
+}
+.navbar-brand.we-logo {
+  font-family: "Playball",cursive;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  line-height: 40px;
+}
+.navbar-toggler.bi-toggler {
+  background-color: white;
+}
+.navbar.we-menu .navbar-nav > li > a {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px !important;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.3px;
+  padding: 15px 20px;
+  color: white;
+  text-transform: capitalize;
+}
+.navbar.we-menu .navbar-nav > li:last-child > a {
+  padding-right: 0;
+}
+.navbar.we-menu .navbar-nav > li > a {
+  position: relative;
+  line-height: 40px;
+}
+.navbar.we-menu .navbar-nav > li > a:active,
+.navbar.we-menu .navbar-nav > li > a:focus,
+.navbar.we-menu .navbar-nav > li > a:hover {
+  color: #DCDCDC;
+}
+.navbar.we-menu .navbar-nav > .active > a,
+.navbar.we-menu .navbar-nav > .active > a:focus,
+.navbar.we-menu .navbar-nav > .active > a:hover{
+  background-color: transparent;
+  color: #DCDCDC;
+}
+.navbar.bi-menu > .open > a,
+.navbar.bi-menu > .open > a:focus,
+.navbar.bi-menu > .open > a:hover{
+  background-color: transparent;
+  color: #DCDCDC;
+}
+
+.nav.business-nav > li > a {
+  color: #000080;
+}
+
+.nav.business-nav > li > a:hover {
+  color: #FFFFFF;
+}
+
+.nav.business-nav > .active > a:focus {
+  color: #FFFFFF;
+}

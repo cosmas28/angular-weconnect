@@ -1,2 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  overflow-x: hidden;
+}
+#body-wrapper {
+  max-width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000;
+  font-family: "Josefin Sans", arial, sans-serif;
+}
