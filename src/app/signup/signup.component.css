@@ -1,0 +1,42 @@
+.landing-content {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+.form-input-division {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.input-default {
+  width: 100%;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 12px;
+}
+.form-text-input {
+  background-color: #FFFFFF;
+  opacity: 1;
+  color: #040505;
+}
+.form-text-input:focus {
+  background-color: deepskyblue;
+  color: #FFFFFF;
+}
+.form-btn {
+  background-color: deepskyblue;
+  color: #FFFFFF;
+}
+.form-btn:hover {
+  background-color: darkgreen;
+  color: #FFFFFF;
+}
+.form-input-division > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+}
+.form-input-division > a:hover {
+  color: deepskyblue;
+}
