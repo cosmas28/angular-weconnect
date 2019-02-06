@@ -1,0 +1,40 @@
+.main-login-page {
+  margin: 0 300px 0 300px;
+}
+@media only screen and (max-width: 768px) {
+  .main-login-page {
+      margin: auto;
+  }
+}
+
+/* auth forms */
+.form-input-division {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.form-input-division > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.form-input-division > a:hover {
+  color: deepskyblue;
+}
+.input-default {
+  width: 100%;
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 12px;
+}
+.form-btn {
+  background-color: deepskyblue;
+  color: #FFFFFF;
+}
+.form-btn:hover {
+  background-color: darkgreen;
+  color: #FFFFFF;
+}

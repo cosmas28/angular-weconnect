@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { SignupModule } from './signup/signup.module';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -16,7 +17,8 @@ import { SignupModule } from './signup/signup.module';
     RouterModule.forRoot([
       { path: '', redirectTo: 'signup', pathMatch: 'full' }
     ]),
-    SignupModule
+    SignupModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
