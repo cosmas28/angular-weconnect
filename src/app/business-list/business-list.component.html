@@ -1,0 +1,97 @@
+<main class="main-body">
+  <div class="container-fluid">
+  <!-- DashboardTitle directive -->
+  <div class="row account-title">
+    <div class="col-md-4 col-sm-12 col-xs-12">
+        <h5>Dummy title</h5>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12 offset-md-4">
+        <form>
+            <div class="form-group">
+                <input
+                    type="text"
+                    name="search"
+                    class="form-text-input form-control"
+                    placeholder="...by name, location, category"
+                />
+            </div>
+        </form>
+    </div>
+  </div>
+  <!-- end directive -->
+  <div class="row no-gutters">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="main-view-page">
+              <div class="category-tags">
+                <!-- BusinessNav directive -->
+                <ul class="nav justify-content-center business-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="">All</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="">Mine</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link btn btn-primary" href="" >Add business</a>
+                  </li>
+                </ul>
+                <!-- End directive -->
+              </div>
+              <div class="row no-gutters">
+                <p *ngIf="showNoProductMessage">You have not registered a business.Please register one.</p>
+                <!-- OneBusinessView directive -->
+                <div class="col-md-6 business-view">
+                  <a class="link-class" href="" >
+                      <div class="view-right-side">
+                          <h3 class="">business-name</h3>
+                          <div>
+                              <span class="badge badge-info">business-category </span>
+                              <span class="business-text"><span class="fa fa-map-marker"></span>  business-location</span>
+                          </div>
+                          <p>
+                          business-summary
+                          </p>
+                      </div>
+                    </a>
+                    <div class="business-btn">
+                      <a class="btn btn-info" href="">Update</a>
+                      <button type="button" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+                <div class="col-md-6 business-view">
+                    <a class="link-class" href="" >
+                        <div class="view-right-side">
+                            <h3 class="">business-name</h3>
+                            <div>
+                                <span class="badge badge-info">business-category </span>
+                                <span class="business-text"><span class="fa fa-map-marker"></span>  business-location</span>
+                            </div>
+                            <p>
+                            business-summary
+                            </p>
+                        </div>
+                      </a>
+                      <div class="business-btn">
+                        <a class="btn btn-info" href="">Update</a>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                      </div>
+                  </div>
+                <!-- End directive -->
+              </div>
+          </div>
+      </div>
+  </div>
+  <div>
+    <!-- Pagination -->
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <i class="fa fa-briefcase" aria-hidden="true"></i> <a href="" target="_blank">Copyright &copy;<script>document.write(new Date().getFullYear());</script></a>
+        </div>
+    </div>
+  </div>
+</footer>

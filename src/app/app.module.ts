@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { SignupModule } from './signup/signup.module';
 import { LoginModule } from './login/login.module';
+import { BusinessListModule } from './business-list/business-list.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,7 +19,8 @@ import { LoginModule } from './login/login.module';
       { path: '', redirectTo: 'signup', pathMatch: 'full' }
     ]),
     SignupModule,
-    LoginModule
+    LoginModule,
+    BusinessListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
